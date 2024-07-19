@@ -12,9 +12,9 @@ const style = {
 const Header = () => {
   return (
     <header style={style}>
-      <div className="logo">Brainwave.io</div>
+      <div className="logo font-sans">Brainwave.io</div>
       <div>
-        <ul className="menu">
+        <ul className="menu font-sans">
           <li>Demos</li>
           <li>Pages</li>
           <li>Support</li>
@@ -22,7 +22,7 @@ const Header = () => {
         </ul>
       </div>
       <div>
-        <button className="button">GET started a project</button>
+        <button className="button font-sans">GET started a project</button>
       </div>
     </header>
   );

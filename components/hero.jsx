@@ -29,7 +29,7 @@ const Hero = () => {
         <button className="button-big">GET started a project</button>
       </div>
       <div className="image">
-        <img src="./assets/image.png" alt="hero" />
+        <img src="/images/zurag.png" alt="zurag" />
       </div>
     </div>
   );
