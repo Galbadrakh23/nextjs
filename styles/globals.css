@@ -3,8 +3,105 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fdfdfd;
+}
+
 .menu {
   display: flex;
-  list-style: none;
   gap: 20px;
+  list-style: none;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  width: 333px;
+  height: 26px;
+  position: absolute;
+  left: 19.51%;
+  right: 52.48%;
+  top: calc(50% - 26px / 2);
+}
+
+.logo,
+.button {
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #161c2d;
+}
+
+.logo {
+  width: 154px;
+  height: 28px;
+  top: 10px;
+  left: 30px;
+  /* shadepro */
+
+  position: absolute;
+  height: 28px;
+  left: 2.52%;
+  right: 84.52%;
+  top: calc(50% - 28px / 2 - 1px);
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.133333px;
+
+  color: #161c2d;
+}
+
+.button {
+  background-color: #473bf0;
+  border-radius: 10px;
+  width: 209px;
+  height: 50px;
+  /* Button 1 */
+
+  /* Button/Solid/Style 06 */
+
+  position: absolute;
+  left: 82.42%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  text-align: center;
+  color: #fdfdfd;
+}
+.image {
+  width: 463px;
+  height: 463px;
+  background: url("/assets/Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+}
+.redText {
+  color: #f64b4b;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.72px;
+  letter-spacing: 1.625px;
+  text-align: left;
+  bottom: 25px;
+}
+.bigText {
+  font-family: Gilroy;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: left;
+  top: 41px;
+  color: #161c2d;
 }

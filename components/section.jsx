@@ -1,8 +1,4 @@
 const Section = () => {
-  return (
-    <section>
-      <h2>Section</h2>
-    </section>
-  );
+  return <section></section>;
 };
 export default Section;
