@@ -2,11 +2,10 @@ const style = {
   display: "flex",
   alignItems: "center",
   position: "absolute",
-  width: "1189px",
+  width: "100vw",
   height: "50px",
   left: "166px",
   top: "16px",
-  border: "1px solid red",
 };
 
 const Header = () => {

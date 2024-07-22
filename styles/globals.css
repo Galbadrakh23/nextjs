@@ -77,23 +77,29 @@ body {
   text-align: center;
   color: #fdfdfd;
 }
+.button-big {
+  background-color: #473bf0;
+  border-radius: 10px;
+  width: 220px;
+  height: 59px;
+  top: 35px;
+  text-align: center;
+  color: #fdfdfd;
+}
 .image {
   width: 463px;
   height: 463px;
-  background: url("/assets/Image.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 1px solid red;
 }
 .redText {
   color: #f64b4b;
-  font-family: Gilroy;
+  font-family: Helvetica Neue;
   font-size: 13px;
   font-weight: 700;
   line-height: 15.72px;
   letter-spacing: 1.625px;
   text-align: left;
   bottom: 25px;
+  text-transform: uppercase;
 }
 .bigText {
   font-family: Gilroy;
@@ -104,6 +110,22 @@ body {
   text-align: left;
   top: 41px;
   color: #161c2d;
+}
+.testimonial {
+  background-color: #473bf0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.testimonial-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 134px;
+  text-align: center;
+  color: #fdfdfd;
 }
 @tailwind base;
 @tailwind components;

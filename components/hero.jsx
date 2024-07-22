@@ -4,12 +4,13 @@ const style = {
   height: "463px",
   top: "202px",
   left: "244px",
-  gap: "0px",
-  opacity: "0px",
-  border: "1px solid red",
   display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
 };
 const Content = {
+  width: "541px",
+  height: "386px",
   display: "flex",
   flexDirection: "column",
   gap: "25px",
@@ -18,18 +19,24 @@ const Hero = () => {
   return (
     <div style={style}>
       <div style={Content}>
-        <div className="redText">Let’s shift your business</div>
-        <div className="bigText">
+        <div className="redText text-red-600">Let’s shift your business</div>
+        <div className="bigText font-sans font-bold">
           Shift your business <br /> fast with Shade Pro.
         </div>
-        <div className="description">
-          With lots of unique blocks, you can easily build a page without
-          coding. Build your next consultancy website within few minutes.
+        <div className="description font-avenir font-extralight">
+          With lots of unique blocks, you can easily build a page <br />
+          without coding. Build your next consultancy website within <br /> few
+          minutes.
         </div>
-        <button className="button-big">GET started a project</button>
+        <button className="button-big font-bold">GET started a project</button>
       </div>
       <div className="image">
-        <img src="/images/Zurag.png" alt="zurag" />
+        <img
+          width={"463px"}
+          height={"463px"}
+          src="/images/Zurag.png"
+          alt="zurag"
+        />
       </div>
     </div>
   );
